@@ -7,5 +7,5 @@ public:
   Spiking(double, double, double, double);
   double getU();
   double getV();
-  double update(double,double);
+  void update(double,double);
 };

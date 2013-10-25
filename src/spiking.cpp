@@ -1,5 +1,5 @@
 //spiking.cpp
-#include "spiking.hpp"
+#include "../include/spiking.hpp"
 
 Spiking::Spiking(double a, double b, double c, double d)
 {
@@ -8,7 +8,7 @@ Spiking::Spiking(double a, double b, double c, double d)
   intC = c;
   intD = d;
   U = 0.;
-  V = 0.;
+  V = 2*intC;
 }
 double Spiking::getU()
 {
